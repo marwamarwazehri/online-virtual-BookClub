@@ -1,0 +1,240 @@
+.main-register-conatner{
+    display: flex;
+}
+
+.nav-admin {
+    width: 400px;
+}
+
+.registerAdmin-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    width: 100%;
+}
+
+
+
+.admin-titles{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+
+.registerAdmin-content{
+
+    display: flex;
+    flex-direction: column;
+   }
+
+.registerAdmin-content-title h4{
+    font-size:1.5rem;
+    font-weight:700;
+    color: black;
+    margin-bottom:1rem;
+}
+
+.enter-password p{
+font-size: 1rem;
+font-weight:700;
+color: black;
+margin-bottom:3rem;
+}
+
+.enter-password .enter-password-input{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+
+.enter-password  .enter-password-input input{
+        margin-bottom:1rem;
+        width: 500px;
+        height: 70px;
+        border-radius: 60px;
+        border-color: rgb(56, 54, 54);
+        outline: none;
+        color: black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+}
+
+.enter-password .enter-password-input button{
+        background-color:#5f30eb;
+        width:150px;
+        height:50px;
+        border-radius:15px;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+}
+
+.enter-password h5{
+
+    margin-top: 1rem;
+    color:rgb(236, 8, 8);
+}
+
+
+.register-boxes{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+       
+}
+
+.register-boxes label{
+    font-size: 1rem;
+    font-weight:500;
+    color: black;
+}
+
+.register-boxes input{
+
+        margin-bottom:1rem;
+        width:600px;
+        height:60px;
+        border-radius:15px;
+        border-color: rgb(56, 54, 54);
+        outline: none;
+        color: black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+}
+
+
+.register-boxes button{
+    background-color: #5f30eb;
+    width: 150px;
+    height: 50px;
+    border-radius:5px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.register-boxes  h5 {
+    margin-left: 15rem;
+    color: green;
+    font-size: 1rem;
+}
+
+
+.register-boxes h6{
+    margin-left:15rem;
+    font-size: 1rem;
+    color: rgb(236, 8, 8);
+}
+
+.register-boxes p{
+font-size: 1rem;
+color:rgb(236, 8, 8);
+}
+
+.admin-List{
+    margin-top:3.5rem;
+}
+
+.admin-List table{
+    width:900px;
+    background-color:white;
+    box-shadow: 0 2px 15px 2px rgba(63, 62, 62, 0.2);
+    border-collapse: collapse;
+        /* Add this line */
+
+}
+
+.admin-List table thead{
+    background-color:#5f30eb ;
+}
+
+
+.admin-List table thead tr th{
+    color:white; 
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    font-size:1.3rem;
+    font-weight:700;
+    border: none;
+}
+
+.admin-List table tbody tr td{
+     padding-top:0.50rem;
+    padding-bottom:0.50rem;
+    color: black;
+    font-size:1.3rem;
+    font-weight: 600;
+}
+
+.delte-message p{
+    font-size: 1rem;
+    color: rgb(236, 8, 8);
+}
+
+.button-password{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:3rem;
+}
+
+.button-password button{
+       border: none;
+        width:300px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        color:black;
+        font-weight: bold;
+        font-size: 1.1rem;
+        cursor: pointer;
+        background-color: white;
+        text-decoration: underline;
+}
+
+.changeOuterPassword{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top:1rem;
+}
+
+
+.changeOuterPassword input{
+        margin-bottom: 1rem;
+        width:200px;
+        height:30px;
+        border-radius: 15px;
+        border-color: rgb(56, 54, 54);
+        outline: none;
+        color: black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+}
+
+.changeOuterPassword button{
+
+background-color: #5f30eb;
+    width:66px;
+    height:30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 0.90rem;
+    cursor: pointer;
+}
+
+.changeOuterPassword p{
+    color: green;
+    font-size: 1rem;
+}
+
+.changeOuterPassword p  span{
+    color:red;
+    font-size: 1rem;
+}

@@ -1,0 +1,51 @@
+.tes-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+   }
+
+.tes-container-header p{
+    font-size:2.5rem;
+    color: #333;}
+
+.tes-container-header-box{
+    display: flex;
+   flex-direction: row;
+    gap:2rem;
+   
+}
+
+@media screen and (max-width:786px) {
+
+.tes-container-header-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tes-container{
+    margin-top:1.5rem;
+}
+
+.tes-container-header p{
+    font-size:1.5rem;
+}
+
+}
+
+
+@media screen and (max-width:320px) {
+    .tes-container-header p {
+        margin-left:2rem;
+          
+        }
+
+        .tes-container{
+            margin-left: 20rem;
+        }
+
+}
+
+

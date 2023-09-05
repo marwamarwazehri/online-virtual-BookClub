@@ -1,0 +1,51 @@
+.reply-Item{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 0.10px solid gainsboro;
+        border-radius: 0.20rem;
+        height: auto;
+        padding: 0.50rem;
+        margin-top: 2rem;
+        margin-left:0rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+}
+
+.short{
+    
+    position: relative;
+    width:900px;
+    margin-left: 7rem;
+}
+
+
+.ttt{
+    display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        height: auto;
+        background-color: white;
+        width:800px;
+        border-radius: 15px;
+        border: 1px solid rgb(211, 208, 208);
+        padding: 1rem;
+        margin-top: 2rem;
+}
+
+.ttt input {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgb(92, 91, 91);
+}
+
+.ttt .smile-edit {
+    margin-left:35rem;
+}
+
+.short-try{
+position: absolute;
+left:4rem;
+}
+

@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=PT+Serif&family=Roboto+Condensed:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.shelf-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+   }
+
+.shelf-container .line{
+    background-color:rgb(163, 162, 162);
+    height:0.5px ;
+    width:1200px;
+    margin-top: 1rem;
+    margin-left: 13rem;
+   
+    
+    
+}
+
+
+.shelf-container .title{
+
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+ 
+
+ .title p{
+    width:500px;
+    font-size: 0.90rem;
+    color: #e4301c;
+    font-weight: normal;
+    margin-left:70rem;
+    font-family: 'Roboto Condensed';
+
+ }
+
+ .design-shelf {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap:10rem;
+     margin-top:1rem;
+     }
+
+ .design-shelf .titleTop{
+    font-size: 1.9rem;
+    color: rgb(58, 58, 58);
+    font-weight: normal;
+    position: absolute;
+    left:30rem;
+    top:42rem;
+    
+   }
+
+ .design-shelf .titleTop span{
+   font-size: 1.2rem;
+ }
+
+ .design-shelf .titleTop h4{
+    font-size: 1rem;
+    color: #e4301c;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    
+ }
+
+ .design-shelf .titleTop h4:hover{
+    cursor: pointer;
+   font-size:1.2rem ;
+ }
+
+.title p{
+    font-size:1.5rem;
+    margin-right: 2rem;
+    width:370px;
+}
+
+ 
+
+ 
+
+
+
+ 
+
+ /* Additional custom styles */
+ /* ... */
+
+.item1{
+   width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns:390px 390px 390px 390px;
+    grid-template-rows: auto;
+  }
+
+  
+ .shelf-container .bookItem{
+   
+    padding: 5rem;
+    height:auto;
+    margin-bottom:30rem;
+   
+}
+
+.drop-downlist{
+    margin-bottom: 3rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.drop-downlist{
+    margin-left:3rem;
+
+}
+
+.drop-downlist label{
+    font-size:1.5rem;
+    color: rgb(58, 58, 58);
+}
+
+.drop-downlist select{
+    margin-left: 1rem;
+    height:58px;
+    width:400px;
+    border-radius: 45px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    border-color:rgb(201, 196, 196) ;
+    font-weight: normal;
+    outline: none;
+
+    
+   
+   
+
+}
+
+
+ .searchname {
+     position: relative;
+     background-color: white;
+     border-radius: 50px 50px 50px 50px;
+     padding:1rem;
+     gap: 3rem;
+     height:30px;
+    width:560px;
+    border: 1px solid rgb(201, 196, 196);
+    margin-bottom:3rem;
+    display: flex;
+    margin-left: 3rem;
+    }
+
+ form .searchText {
+
+     font-weight:normal;
+     font-size:1.2rem;
+    border: none;
+     outline: none;
+     text-align: center;
+     width:480px;
+    
+}
+
+  /*.searchname .form .button {
+     background-color: rgb(26, 25, 25);
+     width:20%;
+     padding: 1rem;
+     font-size: 1rem;
+     color: white;
+     border-radius: 50px 50px 50px 50px;
+     position: absolute;
+     top:0.40rem;
+     left:29rem;
+    
+ }*/
+
+ /*.searchname .form .button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+ }*/
+
+ .searchname form{
+    display: flex;
+    flex-direction: row;
+    gap: 0.70rem;
+
+ }
+ 
+
+.item1 .readbtn{
+    width:100px;
+    height:25px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    color: rgb(46, 45, 45);
+   background-color:rgb(250, 248, 248);
+   margin-left:66rem;
+   border-radius:45px;
+   font-weight: 600;
+  }
+
+  .item1 .readbtn:hover{
+    cursor: pointer;
+   font-size:1.2rem;
+   width: 120px;
+   
+  }
+
+  .item1 .read {
+      width: 100px;
+      height: 25px;
+      border: none;
+      outline: none;
+      font-size: 1.1rem;
+      color: rgb(46, 45, 45);
+      background-color: rgb(250, 248, 248);
+      margin-left:85rem;
+      margin-top:10rem;
+      border-radius: 45px;
+      font-weight: 600;
+      cursor: pointer;
+  }
+
+  .nomatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    color:rgb(46, 45, 45);
+    margin-left:27rem;
+    width: 500px;
+  }
+
+  .slide-book{
+    width:400px;
+    height: 500px;
+   position: absolute;
+   left:70rem;
+   top:39rem;
+   z-index:1;
+   display: flex;
+   flex-direction: row;
+   gap:1rem;
+
+ }
+
+  .slide-book img{
+    width:300px;
+    height:200px;
+  }
+
+  .stand img{
+    position: relative;
+    margin-left:55rem;
+    margin-top: 5rem;
+  
+  }
+
+  
+
+
+
+
+  @media screen and (max-width:786px) {
+
+    .shelf-container {
+        margin-right:20rem;
+    }
+
+    .shelf-container .line{
+        width: 450px;
+        margin-left:23rem;
+    }
+    .design-shelf {
+            display: flex;
+            flex-direction:column;
+             }
+
+           .design-shelf .titleTop{
+            position:static;
+            margin-left:25rem;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+           }
+    .design-shelf .titleTop span{
+     font-size: 1rem;
+
+ }
+
+  .design-shelf .titleTop h4{
+    font-size: 0.80rem;
+
+  }
+
+
+           .Slider{
+            position: static;
+            margin-left:25rem;
+            margin-top: -6rem;
+           }
+
+
+     .Slider img {
+      width:100px;
+     height: 100px;
+                }
+
+  .Slider .stand img {
+            width:450px;
+            height:250px;
+         margin-top:20px;
+         margin-right: 55rem;
+                                }
+
+
+
+ .search {
+display: flex;
+flex-direction:column;
+margin-right: 25rem;
+     }
+
+ .searchname {
+     position:relative;
+   
+     padding:1.1rem;
+     gap:1rem;
+     height:10px;
+     width:350px;
+}
+
+ form .searchText {
+
+    
+     font-size:0.80rem;
+    width:300px;
+    position: absolute;
+    top:1rem;
+    margin-left:2rem;
+   
+
+ }
+
+
+ .drop-downlist {
+     margin-bottom:0rem;
+    
+ }
+
+ .drop-downlist {
+     margin-left:0rem;
+
+ }
+
+.drop-downlist select {
+     margin-left: 1rem;
+     height:35px;
+     width: 400px;
+     border-radius: 45px;
+     cursor: pointer;
+     font-size: 0.90rem;
+     color: rgb(58, 58, 58);
+     text-align: center;
+     border-color: rgb(201, 196, 196);
+     font-weight: normal;
+     outline: non}
+
+/*.item1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}*/
+
+.item1 {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 390px 390px;
+    grid-template-rows: auto;
+}
+
+.shelf-container .bookItem {
+    margin-left:25rem;
+
+}
+
+ 
+.slide-book {
+  
+    position: absolute;
+    left:16rem;
+    top:41.5rem;
+   
+
+}
+
+
+}
+
+
+@media screen and (max-width:320px) {
+.shelf-container .line {
+        width: 450px;
+        margin-left:40rem;
+    }
+
+.Slider {
+    
+    margin-left:45rem;
+}
+    
+
+ .design-shelf .titleTop {
+     
+     margin-left:45rem;
+    
+ }
+
+ .shelf-container .bookItem {
+     margin-left:40rem;
+
+ }
+
+ .search {
+     display: flex;
+     flex-direction: column;
+    margin-left:18rem;
+ }
+
+ .searchname {
+     position: relative;
+
+     padding:1.2rem;
+     gap: 1rem;
+     height: 10px;
+     width:400px;
+ }
+
+ form .searchText {
+font-size:1.3rem;
+  }
+
+
+ .drop-downlist {
+     margin-bottom: 0rem;
+
+ }
+
+ .drop-downlist select {
+     margin-left: 1rem;
+     height:45px;
+     width: 407px;
+    font-size:1.3rem;
+    
+ }
+
+ .slide-book {
+
+     position: absolute;
+     left:12.5rem;
+     top: 43rem;
+
+
+ }
+
+ .item1{
+    margin-left:13rem;
+    padding: 5rem;
+    
+ }
+
+ 
+ 
+}

@@ -1,0 +1,359 @@
+.review-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin-top:5rem;
+    margin-left:7rem;
+  
+}
+
+.review-container .review-container-title h5{
+    font-size: 2.5rem;
+    color:rgb(37, 37, 37);
+    font-weight: normal;
+    
+}
+
+.Community-Reviews-boxReview{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top:4rem;
+
+}
+
+.Community-Reviews-boxReview .user-image img{
+    width:60px;
+    height:60px;
+    border-radius: 45px;
+}
+
+.Community-Reviews-boxReview .remark h5{
+
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: rgb(4, 97, 109);
+}
+
+.review-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+  
+}
+
+.box-container1{
+    width:700px;
+    height:100vh;
+    background-color:white;
+    box-shadow: 0 2px 15px 2px rgba(63, 62, 62, 0.2);
+    border-radius: 15px;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:3rem;
+    }
+
+.box-container1 .close {
+   margin-left:35rem;
+   margin-top: 1rem;
+
+}
+
+
+    .box-container1 .bookimage img{
+     width: 300px;
+    height: 500px;
+    box-shadow: 0 2px 15px 2px rgba(63, 62, 62, 0.2);
+}
+
+ .bookname p {
+     font-size: 2rem;
+     font-weight: normal;
+     color: #0f0f0f;
+     white-space: nowrap;
+ }
+
+.bookauthor p{
+    font-size:1.3rem;
+     font-weight: normal;
+    color: #2b2a2a;
+    white-space: nowrap;
+    margin-top: 1rem;
+}
+
+.box-container1 textarea{
+    border-color:#b9b5b5;
+    color: #2b2a2a;
+    text-align:left;
+    font-size: 1.5rem;
+    margin-top:1.5rem;
+    border-radius: 10px;
+    vertical-align:left;
+    padding:1.2rem ;
+    outline: none;
+   margin-bottom: 2rem;
+   
+}
+
+.Add-btn button {
+    width: 150px;
+    height: 60px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(212, 87, 41);
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.fetch-reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items:center;
+}
+
+.post-Delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+}
+
+.post-Delete .delete button{
+    height:60px;
+     width:270px;
+    border-radius: 60px;
+    color:rgb(221, 73, 19);
+    background-color: white;
+    border:0.80px solid rgb(221, 146, 119);
+     font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    
+}
+
+.post-Delete .post button{
+    height: 60px;
+     width:150px;
+     border-radius: 60px;
+    color: white;
+     background-color:rgb(221, 73, 19);
+     border:none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+
+}
+
+
+.position-rev-del{
+    position: relative;
+    height:70px;}
+
+
+.delete-acount-iconn{
+    position: absolute;
+    left:40rem;
+    top:10px;
+}
+
+/*768px*/
+
+@media screen and (max-width:768px) {
+
+    .review-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            margin-top: 3rem;
+            margin-left:2rem;
+    
+        }
+    
+        .review-container .review-container-title h5 {
+            font-size:1.7rem;
+            color: rgb(37, 37, 37);
+            font-weight: normal;
+    
+        }
+    
+        .Community-Reviews-boxReview {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-top:2rem;
+           
+    
+        }
+    
+        .Community-Reviews-boxReview .user-image img {
+            width: 60px;
+            height: 60px;
+            border-radius: 45px;
+        }
+    
+        .Community-Reviews-boxReview .remark h5 {
+    
+            font-size: 1rem;
+            font-weight: normal;
+            color: rgb(4, 97, 109);
+            white-space: nowrap;
+        }
+    
+        .review-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+            position: absolute;
+    
+        }
+    
+        .box-container1 {
+            width:400px;
+            height: 100vh;
+            background-color: white;
+            box-shadow: 0 2px 15px 2px rgba(63, 62, 62, 0.2);
+            border-radius: 15px;
+            margin-top: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 3rem;
+        }
+    
+        .box-container1 .close  {
+            margin-left:20rem;
+            margin-top: 1rem;
+           
+            }
+    
+    
+        .box-container1 .bookimage img {
+            width:200px;
+            height:300px;
+            box-shadow: 0 2px 15px 2px rgba(63, 62, 62, 0.2);
+        }
+    
+        .bookname p {
+            font-size: 1.5rem;
+            font-weight: normal;
+            color: #0f0f0f;
+            white-space: nowrap;
+        }
+    
+        .bookauthor p {
+            font-size: 1rem;
+            font-weight: normal;
+            color: #2b2a2a;
+            white-space: nowrap;
+            margin-top: 1rem;
+        }
+    
+        .box-container1 textarea {
+            border-color: #b9b5b5;
+            color: #2b2a2a;
+            text-align: left;
+            font-size: 1rem;
+            margin-top: 1.5rem;
+            border-radius: 10px;
+            vertical-align: left;
+            padding: 1.2rem;
+            outline: none;
+            margin-bottom: 2rem;
+            width:300px;
+            height:400px;
+    
+        }
+    
+        .Add-btn button {
+            width:100px;
+            height:40px;
+            border-radius: 40px;
+            color: white;
+            background-color: rgb(212, 87, 41);
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+  
+        .fetch-reviews {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .post-Delete {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem
+        }
+    
+        .post-Delete .delete button {
+            height:40px;
+            width:160px;
+            border-radius: 60px;
+            color: rgb(221, 73, 19);
+            background-color: white;
+            border: 0.80px solid rgb(221, 146, 119);
+            font-size: 1rem;
+            cursor: pointer;
+            margin-left: 1rem;
+    
+        }
+    
+        .post-Delete .post button {
+            height:40px;
+            width: 110px;
+            border-radius: 60px;
+            color: white;
+            background-color: rgb(221, 73, 19);
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-left: 1rem;
+    
+        }
+
+
+}
+
+@media screen and (max-width:320px) {
+    .box-container1{
+        margin-left:25rem;
+        margin-top: 1rem;
+    }
+
+.review-container .review-container-title h5 {
+   white-space: nowrap;
+
+}
+
+
+
+}

@@ -1,0 +1,92 @@
+.main-post-conatner{
+    display: flex;
+   }
+
+  .nav{
+   width:400px;
+   
+  
+}
+
+.post-content{
+display: flex;
+flex-direction: column;
+padding: 10rem;
+width: 100%;
+ }
+
+ .postInto{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap:1rem;
+ }
+
+ .post-number{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   gap: 1rem;
+  
+ }
+ .post-number p{
+    font-size: 1.2rem;
+    color: rgb(59, 59, 59);
+ }
+
+
+ .post-number p span{
+    font-size: 1.3rem;
+    color: rgb(175, 169, 169);
+ }
+
+
+ .postIcon{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+   
+}
+
+.postIcon p{
+    font-size: 1.3rem;
+    color: rgb(22, 22, 22);
+}
+
+.search-content-panel{
+    margin-top:3rem;
+    display: flex;
+    align-items: flex-start;
+    border:1px solid rgb(185, 181, 181);
+    border-radius: 15px;
+    padding: 1rem;
+    width:570px;
+}
+
+.nomatch2{
+    margin-top:4rem;
+   margin-left:2rem;
+}
+
+
+.noposts{
+    margin-top: 4rem;
+   margin-right:27rem;
+}
+.noposts p{
+   font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(17, 17, 17);
+
+}
+
+
+.book-user-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+

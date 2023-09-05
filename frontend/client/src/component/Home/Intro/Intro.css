@@ -1,0 +1,169 @@
+
+.intro-container{
+    display: flex;
+    flex-direction: row;
+    gap:6rem;
+    background-color: #f5e8df;
+}
+
+
+.intro-container-left img{
+    width: 700px;
+    height: 700px;
+}
+
+.intro-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  
+}
+
+
+
+.intro-container-right h1 {
+    font-size:2.5rem;
+    text-align: left;
+    color: #333232;
+    font-weight: 800;
+    font-family: 'Times New Roman',
+        Times,serif;
+        letter-spacing:2px;
+
+}
+
+.intro-container-right h1 span {
+    font-size: 1.3rem;
+    text-align: left;
+    color:#414155;
+    
+    letter-spacing: 1px;
+}
+
+.intro-container-right button{
+    background-color: #ce4419;
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        padding:1rem;
+        border: none;
+        border-radius: 40px;
+        font-weight: 800;
+        cursor: pointer;
+        width:40%;
+      margin-right: 25rem;
+      margin-top: 2rem;
+
+}
+
+.join a {
+    font-size: 1.2rem;
+    color: white;
+    font-weight:400;
+    text-decoration: none;
+   
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:786px) {
+
+.intro-container{
+    flex-direction: column;
+    gap:4rem;
+
+}
+
+.intro-container-left img {
+    width:400px;
+    height:400px;
+}
+
+.intro-container-right h1 {
+    font-size:1.4rem;
+    width:30rem;
+}
+
+
+.intro-container-right h1 span {
+    font-size: 1rem;
+}
+
+
+.intro-container-right button{
+    font-size:2px;
+    margin-right: 1rem;
+   padding: 0.60rem;
+    
+}
+.intro-container-right{
+    padding-bottom: 1rem;
+    margin-left:6rem;
+}
+.join a {
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+}
+
+
+@media screen and (max-width:320px) {
+
+    .intro-container {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin-left:3.5rem;
+        padding:7rem;
+        width:100%;
+     
+
+    }
+
+    .intro-container-left img {
+        width:400px;
+        height:400px;
+    }
+
+    .intro-container-right h1 {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+
+    .intro-container-right h1 span {
+        font-size:1rem;
+    }
+
+
+    .intro-container-right button {
+        font-size:0.80rem;
+        margin-right: 1rem;
+        padding: 0.60rem;
+        width: 50%;
+    }
+
+    .intro-container-right {
+        padding-bottom: 1rem;
+    }
+
+        .join a {
+            font-size:0.90rem;
+            color: white;
+            font-weight: 400;
+            text-decoration: none;
+    
+        }
+
+}

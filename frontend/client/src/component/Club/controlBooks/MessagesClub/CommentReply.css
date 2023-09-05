@@ -1,0 +1,14 @@
+.main-CoomentReply-conatner{
+    display: flex;
+}
+
+.nav-CommentReply {
+    width: 400px;
+}
+
+.CommentReply-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    width: 100%;
+}

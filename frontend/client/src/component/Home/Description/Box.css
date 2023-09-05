@@ -1,0 +1,40 @@
+.box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-container p{
+    font-size:1.5rem;
+    color: #5b5e5f;
+    
+}
+
+.box-container img{
+width: 67%;
+height:67%;
+}
+
+
+@media screen and (max-width:786px) {
+
+    .box-container p {
+            font-size: 1rem;
+            }
+
+.box-container img {
+             width:55%;
+             height:55%;
+                        }
+}
+
+
+@media screen and (max-width:320px) {
+
+    .box-container p {
+            font-size: 1.7rem;
+            width:300px;
+        }
+}

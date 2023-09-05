@@ -1,0 +1,166 @@
+.main-MessageComment-conatner {
+    display: flex;
+}
+
+.nav-MessageComment {
+    width: 400px;
+}
+
+.MessageComment-content {
+    display: flex;
+    flex-direction: column;
+    padding:10rem;
+    width: 100%;
+}
+
+
+
+
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15rem;
+    height:auto;
+   margin-right:20rem;
+   gap: 1rem;
+    /*margin-bottom:10rem;*/
+}
+
+.comm{
+height:auto;
+width: auto;
+background-color: white;
+margin-top:5rem;
+position: relative;
+}
+
+.controlComments-no-rev-found{
+padding-right:20rem;
+padding-left: 20rem;
+padding-top: 20rem;
+padding-bottom:10rem;
+}
+.controlComments-no-rev-found p{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: rgb(37, 37, 37);
+}
+
+.cancel-admin-comments {
+    position: absolute;
+    left:61rem;
+    
+}
+
+
+.review-List table tbody tr td .review-buttons button {
+    width: 66px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: green;
+    font-size: 0.90rem;
+    cursor: pointer;
+}
+  
+
+.reep{
+   height:auto;
+   margin-top: 5rem;
+  }
+
+
+.replyon-comment{
+    height:auto;
+    background-color:white;
+  
+}
+
+
+.no-rep-found p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 700;
+    margin-left: 7rem;
+}
+
+.reply-com-List {
+    height: auto;
+}
+
+.reply-com-List table {
+    width: 500px;
+    border-collapse: collapse;
+    height: auto;
+
+}
+
+.reply-com-List table thead tr th {
+
+    color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    white-space: nowrap;
+}
+
+.reply-com-List table tbody tr td {
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.reply-com-List table tbody tr td img {
+    width: 110px;
+    height: 120px;
+
+}
+
+
+.close-rep-com button{
+        background-color: #5f30eb;
+        width:120px;
+        height:40px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+        margin-left:7rem;
+}
+
+
+.delete-line p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.controlReply-messg p{
+    font-size: 1rem;
+    color: rgb(236, 8, 8);
+}
+
+.scrollable-cell{
+    max-width:250px;
+    overflow-x: hidden;
+    scroll-behavior: auto;
+   
+   
+}
+   
+  
+
+ 
+    
+    
+    
+

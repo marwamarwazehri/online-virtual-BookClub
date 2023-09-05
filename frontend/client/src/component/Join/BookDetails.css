@@ -1,0 +1,646 @@
+.details-container{
+    margin-top:1rem;
+
+}
+
+
+
+.details-container .details-container-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f4f2;
+    gap:5rem;
+    padding-left:2rem;
+    padding-top:5rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.details-container-content .left img{
+    width:400px;
+    height:600px;
+    box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+    
+   
+    
+   }
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+   }
+
+.right .name h5{
+    font-size: 2.3rem;
+    font-weight: normal;
+    color: #272626;}
+
+.right h4{
+font-size: 1.4rem;
+ color: #2a2b2b;
+font-weight: normal;
+margin-top: 1rem;
+}
+
+.right h4 a{
+    font-size: 1.5rem;
+    color: #282929;
+    font-weight: normal;
+}
+.right .desc{
+width: 700px;
+margin-top: 1.5rem;
+text-align: left;
+}
+
+.right .desc p{
+   
+     font-size:1.3rem;
+     color: #535252;
+     font-weight: normal;
+     line-height:1.5rem;
+     display: flex;
+     align-items: flex-start;
+}
+
+.right h3{
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #181818;
+    margin-top: 1rem;
+
+}
+
+.dicussQuestions button{
+width:430px;
+height:50px;
+border-radius:47px;
+font-size: 1.2rem;
+color: white;
+background-color:#292828;
+border:none;
+outline: none;
+margin-top: 1rem;
+font-weight:700;
+cursor: pointer;
+
+}
+
+.status-rcommend{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.8rem;
+    gap:2rem;
+    }
+
+  .status .btn-login button, .recommend .login-btn button{
+    width:250px;
+    height: 50px;
+    border-radius: 47px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #292828;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.status .btn-login button:hover, .recommend .login-btn button:hover{
+    color: #2a2b2b;
+    background-color: white;
+    border: 1px solid #2a2b2b;
+}
+
+
+.buy-book-text p{
+    margin-top: 1.8rem;
+    font-size: 1.2rem;
+    color: #414040;
+    font-weight:570;
+}
+.buyBooks-websites{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+
+.logobuy img {
+    width:100px !important;
+    height:50px !important;
+    background-color: white;
+    border-radius:10px;
+    padding: 0.10rem;
+    box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.lastLogobuy{
+    margin-top: 1rem;
+}
+
+
+.buy-other-web{
+        width: 100px;
+        height: 50px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 0.10rem;
+        box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+        margin-bottom: 1rem;
+       text-align: center;
+        cursor: pointer;
+       }
+
+.lastLogobuy a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.pages{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+   color:#302f2f;
+    font-weight: normal;
+}
+
+
+.ratingValue{
+    margin-top:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:0.10rem;
+  border: 1px solid #dad1d1 ;
+  border-radius:45px;
+  width:210px;
+  background-color: white;
+    
+    
+}
+.ratingValue .rating-title h3{
+    font-size: 1rem;
+    color: #302f2f;
+    font-weight: 500;
+    padding-bottom:0.50rem;
+    white-space: nowrap;
+    
+}
+
+.ratingValue select{
+    border: none;
+    outline: none;
+    color: #302f2f;
+    margin-top: 0.50rem;
+    font-size: 1rem;
+    
+}
+
+.remove-rer p{
+    white-space: nowrap;
+    text-decoration: underline;
+    color: rgb(238, 33, 33);
+    font-size: 0.80rem;
+    cursor: pointer;
+    margin-left: 0.90rem;
+}
+
+.avarege-rating{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.50rem;
+    margin-right:2rem;
+   
+}
+
+.avarege-rating .rating p{
+
+  
+    font-size: 1rem;
+    color: #2b2a2a;
+     font-weight:600;
+}
+
+.bn-rating-reviews p {
+
+font-size: 1.3rem;
+color: #2b2a2a;
+font-weight: 600;
+}
+
+.bn-rating-reviews p a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #2b2a2a;
+}
+
+
+   .btn-status  button{
+    width:100wv;
+    height: 50px;
+    border-radius: 47px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #292828;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left:0.60rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+
+.status-list ul li{
+    list-style: none;
+    color: #292828;
+    font-size: 1.2rem;
+    margin-top:1rem;
+    cursor: pointer;
+}
+
+.btn-recomment  button{
+
+    width: 100wv;
+        height: 50px;
+        border-radius: 47px;
+        font-size: 1.2rem;
+        color: white;
+        background-color: #292828;
+        border: none;
+        outline: none;
+        font-weight: 700;
+        cursor: pointer;
+        position: relative;
+        padding-left: 0.60rem;
+        text-align: center;
+
+}
+
+.recommend-list{
+
+    position: absolute;
+    background-color: white;
+    margin-top: 0.50rem;
+    padding:0.70rem;
+    width: 300px;
+    height:90px;
+    position: fixed;
+    top:39rem;
+   
+}
+
+.recommend-list::before{
+
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 68%;
+    transform: translateX(-50%);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid white;
+}
+
+.recommend-list ul li{
+    list-style: none;
+        color: #292828;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        cursor: pointer;
+}
+
+.rate-message p{
+    white-space: nowrap;
+    color: rgb(226, 17, 17);
+    font-size: 1rem;
+   margin-left:1.5rem;
+
+}
+
+.category-detal{
+margin-top: 1rem;
+font-size: 1.2rem;
+color: #242323;
+font-weight: 500;
+}
+
+@media screen and (max-width:786px) {
+    
+    .details-container{
+      padding-left:1rem;
+
+    }
+    
+    
+    
+    .details-container .details-container-content {
+            flex-direction:column;
+            padding-top:6rem;
+           
+            gap: 0rem;
+          
+            
+}
+
+
+   .details-container-content .left img {
+
+       width:230px;
+       height:380px;
+       
+        
+    }
+
+
+.right {
+    margin-top:5rem;
+    margin-left:7rem;
+   
+   }
+
+   .right .name h5 {
+       font-size:1.5rem;
+      
+   }
+
+
+
+   .right h4 {
+       font-size:1rem;
+       
+   }
+
+   .right h4 a {
+       font-size: 1rem;
+       
+   }
+
+   .right .desc{
+    font-size: 1rem;
+    width:520px;
+   }
+
+
+   .right h3 {
+      
+       font-size: 1rem;
+      
+
+   }
+
+   .dicussQuestions button {
+       width:350px;
+       height:40px;
+       border-radius: 47px;
+       font-size: 1rem;
+       margin-top: 1rem;
+      
+
+   }
+
+   .status .btn-login button,
+   .recommend .login-btn button {
+       width:190px;
+       height:40px;
+      
+       font-size:0.80rem;
+    }
+
+
+        .buy-book-text p {
+            margin-top: 1.5rem;
+            font-size: 0.80rem;
+           
+        }
+    
+        
+.logobuy a img {
+            width:100px;
+            height: 30px;
+           
+        }
+
+
+.pages {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+
+}
+        
+  
+        .ratingValue .rating-title h3 {
+            font-size:0.80rem;
+            
+            padding-bottom:0.30rem;
+    
+        }
+
+.avarege-rating .rating p {
+    font-size:0.90rem;
+    
+
+}
+        
+ .btn-status button {
+     width: 100wv;
+     height: 40px;
+    font-size: 1rem;
+  padding-bottom: 1rem;
+    
+ }
+
+
+
+.status-list ul li {
+    
+    font-size: 1rem;
+    
+}
+
+.btn-recomment button {
+
+    width: 100wv;
+    height: 40px;
+    
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  
+
+}
+ 
+}
+
+.status-message p{
+    color: rgb(236, 8, 8);
+    font-size:1.2rem;
+    position: absolute;
+    left:75rem;
+    top:12rem;
+}
+
+
+
+
+
+
+@media screen and (max-width:320px) {
+    .details-container{
+    padding-right:3rem;
+     
+    }
+    
+    
+    .details-container .details-container-content {
+        flex-direction: column;
+        padding-top: 6rem;
+        padding-right: 40rem;
+        
+        
+        
+
+    }
+
+
+    .details-container-content .left img {
+
+        width: 250px;
+        height: 400px;
+        margin-left:35rem;
+
+    }
+
+
+    .right {
+        margin-top: 5rem;
+        margin-left:45rem;
+    }
+
+    .right .name h5 {
+        font-size: 1.9rem;
+
+    }
+
+
+
+    .right h4 {
+        font-size: 1.3rem;
+
+    }
+
+    .right h4 a {
+        font-size: 1.4rem;
+
+    }
+
+    .right .desc p {
+        font-size: 1.3rem;
+        width: 500px;
+    }
+
+
+    .right h3 {
+
+        font-size: 1.2rem;
+
+
+    }
+
+    .dicussQuestions button {
+        width: 350px;
+        height:60px;
+        border-radius: 47px;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+
+
+    }
+
+    .status .btn-login button,
+    .recommend .login-btn button {
+        width:230px;
+        height: 60px;
+
+        font-size: 1.2rem;
+    }
+
+
+    .buy-book-text p {
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+
+    }
+
+
+    .logo img {
+        width: 130px;
+        height: 50px;
+
+    }
+
+
+    .pages {
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+
+    }
+
+
+    .ratingValue .rating-title h3 {
+        font-size: 1.3rem;
+
+        padding-bottom: 0.50rem;
+
+    }
+
+    .avarege-rating .rating p {
+        font-size:1.2rem;
+
+
+    }
+    .status-rcommend{
+        margin-right:3rem;
+    }
+
+    .btn-status button {
+        width:100vw;
+        height: 50px;
+        font-size: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+
+
+    .status-list ul li {
+
+        font-size: 1.2rem;
+
+    }
+
+    .btn-recomment button {
+
+        width:250px;
+        height: 50px;
+
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+
+
+    }
+
+}
+
+
+

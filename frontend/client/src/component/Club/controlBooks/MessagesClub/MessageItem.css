@@ -1,0 +1,343 @@
+.message-Item{
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+    border:0.10px solid gainsboro;
+    border-radius:0.20rem ;
+    height: auto;
+    padding:2rem;
+    margin-top:2rem;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+    
+}
+
+.user-content-message{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+
+
+
+.user-content-message .img-name-date{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap:0.60rem;
+    
+}
+
+.user-content-message .name-postdate-message{
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap:0.50rem;
+    white-space: nowrap;
+}
+
+
+.user-content-message .edit-delete{
+    margin-left: 45rem;
+    white-space: nowrap;
+    
+}
+
+
+.img-name-date .picture-user img{
+        width: 60px;
+        height: 60px;
+        border-radius:10px;
+}
+
+.message-image img{
+    width:200px;
+    height: 200px;
+}
+
+.name-postdate-message h5{
+
+font-weight:800;
+font-size:1rem;
+color: rgb(70, 68, 68);
+}
+
+
+.name-postdate-message span{
+font-weight:normal;
+font-size:0.90rem;
+color: rgb(73, 72, 72);
+
+}
+
+.message-like{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top:1rem;
+    gap: 1rem;
+}
+
+.message-like .message-text p{
+    font-size: 1.3rem;
+    font-weight:normal;
+    color: rgb(17, 17, 17);
+}
+
+.message-image img{
+    width:180px;
+    height:270px;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius:10px;
+}
+
+.like-icon-message-red{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    background-color:whitesmoke;
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 0.30rem;
+    margin-top:1rem;
+    cursor: pointer;
+    
+}
+
+.like-icon-message{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.1rem;
+        background-color: whitesmoke;
+        border: none;
+        border-radius: 50px;
+        padding: 0.30rem;
+        margin-top: 1rem;
+        cursor: pointer;
+
+}
+
+
+.edit-message{
+        display: flex;
+        flex-direction:column;
+        align-items:flex-start;
+}
+
+.edit-message .edit-text-message{
+        display: flex;
+        flex-direction:row;
+        align-items:flex-start;
+        height: auto;
+            background-color: white;
+            width: 1000px;
+            border-radius:15px;
+            border: 1px solid rgb(211, 208, 208);
+            padding: 1rem;
+            margin-top: 2rem;
+}
+
+.edit-text-message input{
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: normal;
+        color: rgb(92, 91, 91);
+}
+
+.edit-text-message .smile-edit{
+    margin-left: 45rem;
+}
+
+.edit-message .cancle-savechange{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+}
+.cancle-savechange .cancle-edit p{
+    font-weight:800;
+    font-size: 1rem;
+    color: rgb(70, 68, 68);
+}
+
+.cancle-savechange .cancle-edit p span{
+font-weight: 800;
+font-size:1.5rem;
+color: rgb(65, 63, 63);
+}
+.cancle-savechange .save-edit{
+font-weight:700;
+font-size: 1rem;
+color: rgb(134, 131, 131);
+
+}
+
+.fake-image-comment1{
+    width: auto;
+        height: 200px;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+}
+
+.fake-image-comment1 img{
+    width: 100%;
+        height: 200px;
+        border: 1px solid rgb(211, 208, 208);
+}
+
+.fake-image-comment1 .cancel-img-comment1{
+   margin-top: 0rem;
+}
+
+
+
+.comment-message{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top:1rem;
+    gap:48rem;
+}
+
+.comment-write{
+    display: flex;
+     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:0.60rem;
+    cursor: pointer;
+}
+
+.comment-write p{
+    font-size: 1.2rem;
+    color: rgb(20, 20, 20);
+    font-weight:normal;
+}
+.commentNumber p{
+    font-size: 1.2rem;
+    color: rgb(20, 20, 20);
+    font-weight: normal;
+}
+
+/**/
+.comment-component{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.comment-box-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+}
+
+.comment-box-content .inner-box-content{
+display: flex;
+flex-direction:row;
+justify-content:center;
+align-items: center;
+gap: 1rem;
+   }
+
+   .try {
+            display: flex;
+            flex-direction:column;
+           align-items:flex-start;
+            height: auto;
+            background-color: white;
+            width: 900px;
+            border-radius: 45px;
+            border: 1px solid rgb(211, 208, 208);
+            padding: 1rem;
+   }
+
+ .try .fake-image-comment{
+        width: 180px;
+        height: 200px;
+        border: 1px solid rgb(211, 208, 208);
+        margin-bottom: 1rem;
+ }
+.try .fake-image-comment img{
+         width: 160px;
+        height: 200px;
+        position: relative;
+}
+
+ .try .fake-image-comment .cancel-img-comment{
+ position: absolute;
+ top: 17.80rem;
+ left:18rem;
+}
+
+
+
+
+
+.comment-box-content .inputaimage{
+        display: flex;
+        flex-direction: row;
+        align-items:flex-start;
+        
+}
+
+
+.face-camera-comment{
+         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left:38rem;
+        gap:1rem;
+        color: rgb(49, 48, 48);
+}
+
+.inner-box-content .user-profile-comment img{
+
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+}
+
+
+
+.comment-box-content .inputaimage input{
+         border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: normal;
+        color: rgb(92, 91, 91);
+}
+
+.comments-list{
+
+    display: flex;
+     flex-direction: column;
+    align-items: flex-start;
+    margin-top:3rem;
+}
+
+.comments-list .not-fount{
+   
+    margin-left:27rem;
+}
+
+.comments-list .not-fount p{
+
+    font-size: 1.5rem;
+        color: rgb(56, 56, 56);
+}
+

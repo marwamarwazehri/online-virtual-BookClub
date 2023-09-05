@@ -1,0 +1,273 @@
+.login-container {
+    background-color: whitesmoke;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 20rem;
+   
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+    
+
+}
+
+.login-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10rem;
+  
+
+}
+
+
+
+.login-container-content h5 {
+    font-size:2.5rem;
+    font-weight: normal;
+    color: rgb(37, 37, 37);
+    margin-bottom:3rem;
+
+}
+
+.login-container-content .login-container-content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.login-container-content-form input {
+    margin-bottom: 2rem;
+    width: 500px;
+    height:80px;
+    border-radius: 60px;
+   outline: none;
+    color: black;
+    font-size: 1.1rem;
+    padding-left:2rem;
+   
+}
+
+.login-container-content button {
+    background-color:rgb(26, 25, 25);
+    width: 500px;
+    height:70px;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+
+}
+.login-container-content button:hover{
+   cursor: pointer;
+
+}
+
+
+
+.login-container-content  .signUp button {
+    background-color:white;
+    width: 500px;
+    height:70px;
+    border-radius: 60px;
+    color:black;
+    font-size: 1rem;
+    border: 1px rgb(189, 183, 183) solid;
+}
+
+.login-container-content .signUp button:hover{
+   
+    border: 1px black solid;
+    cursor: pointer;
+
+}
+
+.login-container-content p {
+    width: 500px;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: rgb(107, 106, 106);
+}
+
+.login-container-content p span {
+    color: rgb(53, 52, 52);
+}
+
+.login-container-content p a {
+    color: rgb(51, 50, 50);
+}
+h6 {
+    color: rgb(236, 8, 8);
+    font-size: 1rem;
+
+
+}
+
+.type-list select {
+    margin-bottom: 2rem;
+    width: 520px;
+    height:80px;
+    border-radius: 60px;
+    border-color: rgb(214, 209, 209);
+    outline: none;
+    color: black;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+    margin-right: 1rem;
+}
+.type-list select option{
+    color:rgb(83, 82, 82);
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:786px) {
+
+.img-container  img{
+    width:400px;
+    height:500px;
+}
+
+.login-container-content button {
+  
+    width:350px;
+    height:40px;
+    font-size: 1rem;
+}
+
+
+.login-container-content-form input {
+  
+    width: 350px;
+    height:40px;
+   
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+.login-container-content p {
+    
+    font-size: 1rem;
+  margin-right:3rem;
+   margin-bottom:2rem;
+}
+
+.login-container-content .signUp button {
+  
+    width:350px;
+    height:40px;
+    font-size: 1rem;
+}
+
+.login-container {
+   
+    flex-direction:column;
+   
+
+}
+
+
+.login-container-content h5 {
+    font-size:1.5rem;
+  
+
+}
+
+.login-container-content {
+    padding-top: 5rem;
+
+}
+
+  .type-list select {
+
+      width: 390px;
+      height: 50px;
+      font-size: 1rem;
+     padding-left:1rem;
+     margin-left: 1rem;
+
+  }
+}
+
+
+@media screen and (max-width:320px) {
+
+   .img-container img {
+            width: 410px;
+            height: 520px;
+        }
+    
+        .login-container-content button {
+    
+            width: 370px;
+            height:60px;
+    
+            font-size: 1rem;
+        }
+    
+    
+        .login-container-content-form input {
+    
+            width: 350px;
+            height: 60px;
+    
+            font-size: 1.3rem;
+            padding-left: 2rem;
+        }
+    
+        .login-container-content p {
+    
+            font-size: 1.3rem;
+            margin-right: 2rem;
+             margin-bottom: 2rem;
+    
+        }
+    
+        .login-container-content .signUp button {
+    
+            width: 350px;
+            height:60px;
+    
+            font-size: 1rem;
+        }
+    
+        .login-container {
+    
+            flex-direction: column;
+            margin-left: 3rem;
+    
+    
+        }
+    
+        .login-container-content h5 {
+            font-size: 1.5rem;
+    
+    
+        }
+
+        .login-container-content{
+            padding-top: 5rem;
+            
+        }
+
+                .type-list select {
+                  
+                    width: 390px;
+                    height: 60px;
+                   font-size: 1.1rem;
+                   
+                }
+
+  
+        
+
+
+
+
+
+}

@@ -1,0 +1,332 @@
+.edit-post-meeting{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top:3rem;
+    
+}
+
+.edit-post-meeting-title p{
+    font-size:2.2rem;
+    color: #1d1b1b;
+    font-weight:normal;
+}
+
+.edit-post-meeting-userPosts-search{
+        position: relative;
+        background-color: white;
+        border-radius: 50px 50px 50px 50px;
+        padding: 1rem;
+        gap: 3rem;
+        height: 30px;
+        width:590px;
+        border: 1px solid rgb(201, 196, 196);
+        margin-bottom:1rem;
+        display: flex;
+        margin-left: 3rem;
+        margin-top:2rem;
+}
+
+.edit-post-meeting-userPosts-search form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.70rem;
+}
+
+.edit-post-meeting-userPosts-search form .searchText3{
+        font-weight: normal;
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+        text-align:left;
+        width: 480px;
+        margin-bottom:5rem;
+        margin-left: 1rem;
+       
+}
+
+.search-class{
+    background-color: rgb(36, 35, 35);
+    width:30px;
+    height:30px;
+    border-radius:40px;
+    padding-right:2.5rem;
+    padding-left:2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+   position: absolute;
+   top:0rem;
+   left:35rem;
+    
+}
+
+.search-book-met{
+    margin-bottom:5rem;
+    color: rgb(107, 105, 105);
+}
+
+.book-user-content-meet{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 390px 390px 390px 390px;
+        grid-template-rows: auto;
+    }
+
+.book-user-content-meet .userpost img{
+    width:250px;
+    height:290px;
+}
+
+.userpost .userpost-name p{
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: #252525;
+        white-space: nowrap;
+}
+
+.userpost .userpost-author p{
+        font-size: 1.1rem;
+        color: rgb(92, 89, 89);
+        font-weight: normal;
+        white-space: nowrap;
+        margin-top: 0.80rem;
+}
+
+.Userbook-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-right:7rem;
+    
+}
+
+.Userbook-details .Userbook-details-left img{
+    width: 250px;
+    height: 290px;
+}
+
+.Userbook-details .Userbook-details-right{
+
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        gap:1rem;
+}
+
+.Userbook-details-right h5{
+        font-size:1.7rem;
+        color: #141414;
+        font-weight:500;
+       
+}
+
+.Userbook-details-right p{
+        font-size: 1.3rem;
+        color: rgb(92, 89, 89);
+        font-weight:normal;
+        white-space: nowrap;
+      
+}
+
+.Userbook-details-right button{
+       
+        background-color:gainsboro;
+        color: rgb(99, 96, 96);
+        font-weight: 600;
+        width: 130px;
+        height:35px;
+        border-radius: 18px;
+        font-size: 1rem;
+        border: 1px solid gainsboro;
+        margin-top: 2rem;
+}
+
+.Userbook-details-right button:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+}
+
+
+.meeting-Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meeting-Details .datetime-met{
+        background-color: white;
+        border-radius: 50px 50px 50px 50px;
+        padding: 1rem;
+        gap:1rem;
+        height: 30px;
+        width:440px;
+        border: 1px solid rgb(201, 196, 196);
+        margin-bottom:1rem;
+        display: flex;
+        margin-top: 2rem;
+        margin-right:3rem;
+       
+}
+
+.datetime-met input{
+        font-weight: normal;
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+        text-align:center;
+        
+       
+}
+
+.duration-met{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.duration-met-text{
+    display: flex;
+     flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-right:15rem;
+}
+
+.duration-met-text p{
+font-weight: normal;
+font-size: 1.5rem;
+color: #414040;
+}
+
+.items-duration{
+    margin-top: 2rem;
+    margin-left:10rem;
+    
+}
+
+.items-duration input{
+margin-right:0.40rem;
+}
+
+.items-duration label{
+margin-right:3rem;
+font-size: 1.1rem;
+}
+
+.meeting-link{
+
+                background-color: white;
+                border-radius: 50px 50px 50px 50px;
+                padding: 1rem;
+                gap: 1rem;
+                height: 30px;
+                width: 440px;
+                border: 1px solid rgb(201, 196, 196);
+                margin-bottom: 1rem;
+                display: flex;
+                margin-top: 2rem;
+                margin-right: 3rem;
+}
+
+.meeting-link input{
+        font-weight: normal;
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+        text-align: center;
+}
+
+.note-met textarea{
+border: 1px solid rgb(201, 196, 196);
+font-weight: normal;
+font-size: 1.2rem;
+margin-left:17rem;
+margin-top: 1rem;
+text-align:left;
+padding-left: 1rem;
+padding-top: 1rem;
+}
+
+.meeting-btn{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+margin-top: 1rem;
+margin-left:17rem;
+}
+
+.meeting-btn-cancel{
+                width: 190px;
+                height: 60px;
+                border-radius: 40px;
+                color: black;
+                background-color: white;
+                border: 1px solid rgb(202, 197, 197);
+                font-size: 1.3rem;
+                cursor: pointer;
+                padding: 1rem;
+                text-align: center;
+}
+
+.meeting-btn-cancel:hover{
+        border-color: black;
+}
+
+.meeting-btnCreate{
+                width:210px;
+                height: 60px;
+                border-radius: 40px;
+                color: white;
+                background-color: black;
+                border: none;
+                font-size: 1.3rem;
+                cursor: pointer;
+                padding: 1rem;
+                text-align: center;
+                white-space: nowrap;
+}
+
+.meeting-btn-delete p{
+                margin-top: 2rem;
+                font-size: 1.2rem;
+               text-decoration: underline;
+               cursor: pointer;
+               color: #141414;
+               margin-left:17rem;
+               margin-bottom: 1rem;
+               
+}
+
+.position-met-del{
+
+margin-top:15rem;
+}
+
+
+.error-messages-met p{
+      color: rgb(233, 8, 8);
+        font-size: 1rem;
+        margin-top: 1rem;
+                
+}
+.nomatch3{
+        font-size: 1.3rem;
+        color: #141414;
+        margin-left: 43rem;
+        white-space: nowrap;
+}
+
+
+
